@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -o errexit
+
 _FORTUNE_ARGS="$1"
 _COWSAY_ARGS="$2"
 
